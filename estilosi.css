@@ -1,0 +1,11 @@
+body{background-color: #000;}
+.car{height: 600px; width: 100%;}
+.jumbo{background-color: #F48739;}
+h3{font-family: Bahnschrift SemiBold; font-size: 120px; color: white;}
+p{font-size: 25px;}
+.tamaño{text-align: center;}
+.pie-pagina{width: 100%; background-color: white; height: 50px; color: black; text-align: center;}
+.navega{background-color: #1D1F84;}
+h4{color: white; font-size: 40px; font-family: Arial;}
+.alerti-info{color: #34D7FA; text-align: center;}
+.p-p{width: 100%; background-color: white; height: 30px; color: #000; text-align: center;}

@@ -1,0 +1,52 @@
+body{
+    background-color:#000;
+}
+h1{
+    text-align: center;
+}
+.insta{
+    text-align: center;
+}
+.car{
+    height: 600px;
+    float-left: auto;float-right: auto;
+}
+.jumbo{
+    background-color: #F48739;
+}
+.titulo{
+    font-family: Bahnschrift SemiBold;
+    font-size: 120px;
+    color: white;
+}
+p{
+    font-size: 30px;
+}
+.ig{
+    height: 500px;
+    width: 600px;
+}
+.tamaño{
+    text-align: center;
+}
+.pie-pagina{
+    width: 100%;
+    background-color:#FFF;
+    height: 50px;
+    color: #000;
+    text-align: center;
+}
+img{
+    height: |100%;
+    width: 70%;
+}
+.nike{
+    height: 100%;
+}
+.navega{
+    background-color: #1D1F84;
+}
+.video{
+    height:200px;
+    width:400px;
+}

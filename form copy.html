@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registrate</title>
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="estilosi.css">
+   <style type="text/css">
+        body{text-align: center;}
+        #contenedor{width: 100%; margin-left: auto; margin-right: auto; border: solid; border-radius: 8px;}
+        .boton{background-color: #182E8F;}
+        .boton1{background-color: #48A7E6;}
+        h1{color: white; font-size: 30px; text-align: center;}
+        h2{color: #5EF76F; font-size: 20px; text-align: center;}
+        .circles{font-size: 15px; font-family: Arial; color: #4DE1FA;}
+        input{border-color: #2AFFEA; background-color: white; color: #000000; font-family: "comic sans ms"}
+        .boton2{background-color: #169E25}
+        .generos{font-size: 18px; font-family: Chalkboard; color: #F51601;}
+        .cont{font-size: 18px; font-family: AppleGothic; color: #B23AE6;}
+    </style>
+</head>
+<body class="tamaño">
+    <div class="row">
+   <div class="col-sm|md|lg|xl-12 container">
+    <h3>Inicio de Sesion</h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <ul class="nav nav-pills nav-justified navega">
+             <li class="nav-item">
+             <a class="nav-link active" href="index.html">Home</a>
+             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="nike.html">Nike</a>
+          </li>
+            <li class="nav-item">
+               <a class="nav-link" href="adidas.html">Adidas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="form copy.html">Registrate</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="jumbotron jumbo">
+  <h4>SPORT OR NOTHING</h4>
+  <p class="insta">Aqui te puedes registrar para unirte a SPORT OR NOTHING, si te registras pordras explorar y ganar descuentos en tu compra, podras incluso navegar a otras marcas que no mostramos en este momento y también otros articulos mucho mas exclusivos, ademas que si te registras cuando hagas una compra el envio sera completamente gratis. Por eso no pierdas el tiempo y registrate con SPORT OR NOTHING.</p>
+</div>
+
+<div class="row">
+  <div class="col">
+<div id= "contenedor">
+<h1>Registrate</h1>
+<hr>
+<form>
+  <input type="text" id="fname" name="fname" placeholder="Nombre" size="40"><br>
+    <input type="email" id="fname" name="mail" placeholder="Correo" size="40"><br>
+    <input type="password" id="contra" name="password" placeholder="Contraseña" size="40"><br>
+    <hr>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male" class="generos">Masculino</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female" class="generos">Femenino</label><br> 
+    </select> 
+     <label for="cont" class="cont">Escoge tu region de procedencia</label>
+     <select id="continente" name="continent">
+     <option value="Eur">Europa</option>
+     <option value="Ame">America</option>
+     <option value="Afr">Africa</option>
+     <option value="Asi">Asia</option>
+     <option value="Oce">Oceania</option>
+     </select><br>
+     <h2>¿Porque estas interesado en este sitio web?<br> ¿Tienes algunas recomendaciones para ayudarnos a mejorar?</h2>
+     <textarea name="message" rows="5" cols="50">
+     Comentanos aqui...
+     </textarea>
+     <hr>
+    <input type="checkbox" id="accept" name="Acceptance" value="Accept">
+    <label for="aceptar" class="circles">Acepta Terminos y Condiciones</label><br>
+    <input type="checkbox" id="sus" name="suscription" value="suscribe">
+    <label for="suscribe" class="circles">Suscribete a Nuestro Portal Informativo</label><br> 
+    <input type="submit" value="Submit Query" class="boton2"><br>
+ </form> 
+</div>
+  </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+ 
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="s.jpg" class="car">
+    </div>
+    <div class="carousel-item">
+      <img src="dunk.jpg" class="car">
+    </div>
+    <div class="carousel-item">
+      <img src="ski.jpg" class="car">
+    </div>
+  </div>
+
+ 
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+    </div>
+</div>
+ <footer class="pie-pagina">Copy right Windows 2021 &copy;</footer>
+</body>
+</html>
